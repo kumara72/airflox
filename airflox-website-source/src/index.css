@@ -1,0 +1,48 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+:root {
+  --ink: #10243E;
+  --ink-2: #0B1A2E;
+  --teal: #0AA3A3;
+  --teal-dark: #087F7F;
+  --signal: #F26522;
+  --paper: #F6F7F5;
+  --steel: #7C8A97;
+  --steel-light: #E4E8EA;
+  --charcoal: #1A1F26;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--charcoal);
+  font-family: 'Inter', system-ui, sans-serif;
+}
+h1, h2, h3, h4, .font-display { font-family: 'Space Grotesk', 'Inter', sans-serif; }
+.font-mono-data { font-family: 'IBM Plex Mono', monospace; }
+::selection { background: var(--teal); color: white; }
+:focus-visible { outline: 2px solid var(--teal); outline-offset: 2px; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+}
+
+.duct-flow { stroke-dasharray: 6 10; animation: flow 3s linear infinite; }
+@keyframes flow { to { stroke-dashoffset: -160; } }
+
+.blueprint-grid {
+  background-image:
+    linear-gradient(rgba(255,255,255,0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.06) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

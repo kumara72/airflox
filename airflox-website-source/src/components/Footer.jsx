@@ -7,15 +7,9 @@ export default function Footer() {
     <footer className="bg-[var(--ink-2)] text-[#B9C6D1] mt-20">
       <div className="max-w-7xl mx-auto px-4 py-12 grid grid-cols-2 md:grid-cols-4 gap-8">
         <div className="col-span-2 md:col-span-1">
-          <div className="flex items-center gap-2 mb-3">
-            <svg width="26" height="26" viewBox="0 0 40 40" aria-hidden="true">
-              <circle cx="20" cy="20" r="19" fill="none" stroke="#0AA3A3" strokeWidth="2" />
-              <path d="M8 22 Q14 14 20 22 T32 22" fill="none" stroke="#F26522" strokeWidth="2.5" strokeLinecap="round" />
-            </svg>
-            <span className="font-display font-semibold text-white text-lg">airflox</span>
-          </div>
-          <p className="text-sm leading-relaxed">
-            Parts and equipment for HVAC professionals and serious DIYers — sourced, stocked, and shipped fast.
+          <img src="/logo.png" alt="Airflox logo" className="w-8 h-8 mb-3" />
+          <p className="text-sm text-[var(--steel)]">
+            Airflox is a leading supplier of HVAC parts and accessories in India, serving both professionals and homeowners with quality products and expert advice.
           </p>
         </div>
 

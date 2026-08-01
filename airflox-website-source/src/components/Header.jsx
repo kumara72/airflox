@@ -36,11 +36,7 @@ export default function Header() {
           </button>
 
           <Link to="/" className="flex items-center gap-2 shrink-0">
-            <svg width="30" height="30" viewBox="0 0 40 40" aria-hidden="true">
-              <circle cx="20" cy="20" r="19" fill="none" stroke="#0AA3A3" strokeWidth="2" />
-              <path d="M8 22 Q14 14 20 22 T32 22" fill="none" stroke="#F26522" strokeWidth="2.5" strokeLinecap="round" />
-            </svg>
-            <span className="font-display font-700 text-white text-xl tracking-tight">airflox</span>
+            <img src="/logo.png" alt="Airflox logo" className="w-8 h-8" />
           </Link>
 
           <form onSubmit={submitSearch} className="hidden md:flex flex-1 max-w-2xl">

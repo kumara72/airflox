@@ -5,24 +5,16 @@ import { Mail, Phone, MapPin } from 'lucide-react'
 export default function Footer() {
   return (
     <footer className="bg-[var(--ink-2)] text-[#B9C6D1] mt-20">
-      <div className="max-w-7xl mx-auto px-4 py-12 grid grid-cols-2 md:grid-cols-4 gap-8">
-        <div className="col-span-2 md:col-span-1">
-          <img src="/logo.png" alt="Airflox logo" className="w-8 h-8 mb-3" />
-          <p className="text-sm text-[var(--steel)]">
-            Airflox is a leading supplier of HVAC parts and accessories in India, serving both professionals and homeowners with quality products and expert advice.
-          </p>
-        </div>
-
-        <div>
-          <h3 className="text-white font-display text-sm font-semibold mb-3 uppercase tracking-wide">Shop by Category</h3>
-          <ul className="space-y-2 text-sm">
-            {categories.map((c) => (
-              <li key={c.slug}>
-                <Link to={`/category/${c.slug}`} className="hover:text-white transition-colors">{c.name}</Link>
-              </li>
-            ))}
-          </ul>
-        </div>
+  <div className="max-w-7xl mx-auto px-4 py-12 grid grid-cols-2 md:grid-cols-4 gap-8">
+    <div className="col-span-2 md:col-span-1">
+      <div className="flex items-center gap-3 mb-4">
+        <img src="/logo.png" alt="Airflox logo" className="w-14 h-14 rounded-lg shadow-md" />
+        <span className="font-display font-semibold text-white text-xl">airflox</span>
+      </div>
+      <p className="text-sm text-[var(--steel)]">
+        Airflox is a supplier of HVAC parts and supplies for professionals and homeowners across India. We provide a wide range of products including furnaces, air conditioners, ductwork, thermostats, water heaters, and tools.
+      </p>
+    </div>
 
         <div>
           <h3 className="text-white font-display text-sm font-semibold mb-3 uppercase tracking-wide">Company</h3>

@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Phone, Mail, MapPin, Clock } from 'lucide-react'
 
-const FORM_ENDPOINT = 'https://formspree.io/f/xgogjwbl'
+const FORM_ENDPOINT = 'https://formspree.io/f/mlgqyddz'
 
 export default function Contact() {
   const [form, setForm] = useState({ name: '', email: '', phone: '', message: '' })

@@ -5,7 +5,7 @@ import { useQuoteCart } from '../context/QuoteCartContext'
 
 // Replace this with your own Formspree endpoint (https://formspree.io) —
 // free tier works fine for a low-volume quote inbox. See README for setup.
-const FORM_ENDPOINT = 'https://formspree.io/f/xgogjwbl'
+const FORM_ENDPOINT = 'https://formspree.io/f/mlgqyddz'
 
 export default function QuoteCart() {
   const { items, updateQty, removeItem, subtotal, clearCart } = useQuoteCart()

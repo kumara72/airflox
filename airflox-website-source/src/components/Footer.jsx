@@ -42,9 +42,9 @@ export default function Footer() {
         <div>
           <h3 className="text-white font-display text-sm font-semibold mb-3 uppercase tracking-wide">Get in Touch</h3>
           <ul className="space-y-2.5 text-sm">
-            <li className="flex items-start gap-2"><Phone className="w-4 h-4 mt-0.5 shrink-0" /> +91 11 4000 0000</li>
-            <li className="flex items-start gap-2"><Mail className="w-4 h-4 mt-0.5 shrink-0" /> hello@airflox.in</li>
-            <li className="flex items-start gap-2"><MapPin className="w-4 h-4 mt-0.5 shrink-0" /> New Delhi, India</li>
+            <li className="flex items-start gap-2"><Phone className="w-4 h-4 mt-0.5 shrink-0" /> +91-93116176000</li>
+            <li className="flex items-start gap-2"><Mail className="w-4 h-4 mt-0.5 shrink-0" /> vivek@airflox.in</li>
+            <li className="flex items-start gap-2"><MapPin className="w-4 h-4 mt-0.5 shrink-0" /> Greater Noida, Uttar Pradesh – 201306, India</li>
           </ul>
         </div>
       </div>

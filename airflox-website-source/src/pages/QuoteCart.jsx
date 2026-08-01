@@ -48,7 +48,7 @@ export default function QuoteCart() {
         <h1 className="font-display text-2xl font-semibold text-[var(--ink)] mb-3">Quote request received</h1>
         <p className="text-[var(--steel)] mb-6">
           Thanks{form.name ? `, ${form.name}` : ''} — our team will confirm pricing and stock and get back to you by phone or email shortly.
-          For anything urgent, call us directly at <a href="tel:+911140000000" className="text-[var(--teal-dark)] font-medium">+91 11 4000 0000</a>.
+          For anything urgent, call us directly at <a href="tel:+919311617600" className="text-[var(--teal-dark)] font-medium">+91 11 4000 0000</a>.
         </p>
         <Link to="/" className="inline-block bg-[var(--ink)] text-white px-6 py-3 rounded-md font-medium hover:bg-[var(--teal-dark)] transition-colors">
           Back to Home
@@ -131,7 +131,7 @@ export default function QuoteCart() {
             </button>
             {status === 'error' && (
               <p className="text-sm text-red-600">
-                Something went wrong sending this automatically. Please call us at <a href="tel:+911140000000" className="underline">+91 11 4000 0000</a> or email <a href="mailto:hello@airflox.in" className="underline">hello@airflox.in</a> with your list.
+                Something went wrong sending this automatically. Please call us at <a href="tel:+919311617600" className="underline">+91 11 4000 0000</a> or email <a href="mailto:hello@airflox.in" className="underline">hello@airflox.in</a> with your list.
               </p>
             )}
           </form>

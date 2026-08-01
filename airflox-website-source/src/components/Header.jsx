@@ -22,8 +22,8 @@ export default function Header() {
       <div className="bg-[var(--ink-2)] text-[#B9C6D1] text-xs">
         <div className="max-w-7xl mx-auto px-4 py-1.5 flex items-center justify-between">
           <span className="hidden sm:block">Serving HVAC pros & homeowners across India</span>
-          <a href="tel:+911140000000" className="flex items-center gap-1.5 hover:text-white transition-colors">
-            <Phone className="w-3.5 h-3.5" /> +91 11 4000 0000
+          <a href="tel:+919311617600" className="flex items-center gap-1.5 hover:text-white transition-colors">
+            <Phone className="w-3.5 h-3.5" /> +919311617600
           </a>
         </div>
       </div>

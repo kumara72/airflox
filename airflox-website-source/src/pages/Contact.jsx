@@ -74,21 +74,21 @@ export default function Contact() {
             <Phone className="w-5 h-5 text-[var(--teal-dark)] mt-0.5" />
             <div>
               <p className="font-medium text-[var(--charcoal)]">Call us</p>
-              <a href="tel:+911140000000" className="text-sm text-[var(--steel)]">+91 11 4000 0000</a>
+              <a href="tel:+919311617600" className="text-sm text-[var(--steel)]">+91 9311617600</a>
             </div>
           </div>
           <div className="flex items-start gap-3">
             <Mail className="w-5 h-5 text-[var(--teal-dark)] mt-0.5" />
             <div>
               <p className="font-medium text-[var(--charcoal)]">Email us</p>
-              <a href="mailto:hello@airflox.in" className="text-sm text-[var(--steel)]">hello@airflox.in</a>
+              <a href="mailto:vivek@airflox.in" className="text-sm text-[var(--steel)]">vivek@airflox.in</a>
             </div>
           </div>
           <div className="flex items-start gap-3">
             <MapPin className="w-5 h-5 text-[var(--teal-dark)] mt-0.5" />
             <div>
               <p className="font-medium text-[var(--charcoal)]">Warehouse</p>
-              <p className="text-sm text-[var(--steel)]">New Delhi, India</p>
+              <p className="text-sm text-[var(--steel)]">Shop No. 11, Amrit Plaza, KHS-652,<br /> Bisrakh Jalalpur, Greater Noida, <br /> Gautam Buddha Nagar, Uttar Pradesh – 201306, India</p>
             </div>
           </div>
           <div className="flex items-start gap-3">
